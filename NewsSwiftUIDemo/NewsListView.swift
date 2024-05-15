@@ -20,7 +20,8 @@ struct NewsListView: View {
                     ScrollViewReader { scrollView in
                         List(newsItems, id: \.id) { newsItem in
                             NavigationLink(destination: NewsTabView(newsItems:newsItems, selectedNewsItem: newsItem)) {
-                                Text(newsItem.title)
+                                NewsRowView(newsItem: newsItem)
+                                    .frame(height: 70)
                             }
                         }
                         
