@@ -11,7 +11,34 @@
 		9FCE3F6F2BF4900E004255CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F6E2BF4900E004255CB /* ContentView.swift */; };
 		9FCE3F712BF49010004255CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE3F702BF49010004255CB /* Assets.xcassets */; };
 		9FCE3F742BF49010004255CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE3F732BF49010004255CB /* Preview Assets.xcassets */; };
+		9FCE3F872BF4926D004255CB /* DEWASecrets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE3F862BF4919F004255CB /* DEWASecrets.framework */; };
+		9FCE3F882BF4926D004255CB /* DEWASecrets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE3F862BF4919F004255CB /* DEWASecrets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCE3F8B2BF494E5004255CB /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F8A2BF494E5004255CB /* Modifiers.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FCE3F852BF4919F004255CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FCE3F812BF4919F004255CB /* DEWASecrets.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9F54EB5C2BEE3C22008A4B49;
+			remoteInfo = DEWASecrets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9FCE3F892BF4926D004255CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9FCE3F882BF4926D004255CB /* DEWASecrets.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9FCE3F692BF4900E004255CB /* NewsSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +46,8 @@
 		9FCE3F6E2BF4900E004255CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FCE3F702BF49010004255CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FCE3F732BF49010004255CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FCE3F812BF4919F004255CB /* DEWASecrets.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DEWASecrets.xcodeproj; path = ../DEWASecrets/DEWASecrets.xcodeproj; sourceTree = "<group>"; };
+		9FCE3F8A2BF494E5004255CB /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCE3F872BF4926D004255CB /* DEWASecrets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,8 +65,10 @@
 		9FCE3F602BF4900E004255CB = {
 			isa = PBXGroup;
 			children = (
+				9FCE3F812BF4919F004255CB /* DEWASecrets.xcodeproj */,
 				9FCE3F6B2BF4900E004255CB /* NewsSwiftUIDemo */,
 				9FCE3F6A2BF4900E004255CB /* Products */,
+				9FCE3F7A2BF490C7004255CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +87,7 @@
 				9FCE3F6E2BF4900E004255CB /* ContentView.swift */,
 				9FCE3F702BF49010004255CB /* Assets.xcassets */,
 				9FCE3F722BF49010004255CB /* Preview Content */,
+				9FCE3F8A2BF494E5004255CB /* Modifiers.swift */,
 			);
 			path = NewsSwiftUIDemo;
 			sourceTree = "<group>";
@@ -67,6 +100,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9FCE3F7A2BF490C7004255CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FCE3F822BF4919F004255CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FCE3F862BF4919F004255CB /* DEWASecrets.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +125,7 @@
 				9FCE3F652BF4900E004255CB /* Sources */,
 				9FCE3F662BF4900E004255CB /* Frameworks */,
 				9FCE3F672BF4900E004255CB /* Resources */,
+				9FCE3F892BF4926D004255CB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -113,12 +162,28 @@
 			mainGroup = 9FCE3F602BF4900E004255CB;
 			productRefGroup = 9FCE3F6A2BF4900E004255CB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9FCE3F822BF4919F004255CB /* Products */;
+					ProjectRef = 9FCE3F812BF4919F004255CB /* DEWASecrets.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9FCE3F682BF4900E004255CB /* NewsSwiftUIDemo */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9FCE3F862BF4919F004255CB /* DEWASecrets.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DEWASecrets.framework;
+			remoteRef = 9FCE3F852BF4919F004255CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9FCE3F672BF4900E004255CB /* Resources */ = {
@@ -138,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FCE3F6F2BF4900E004255CB /* ContentView.swift in Sources */,
+				9FCE3F8B2BF494E5004255CB /* Modifiers.swift in Sources */,
 				9FCE3F6D2BF4900E004255CB /* NewsSwiftUIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewsSwiftUIDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VSNLS7N3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +367,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewsSwiftUIDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3VSNLS7N3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
