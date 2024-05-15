@@ -41,7 +41,7 @@ struct NavigationViewTheme: ViewModifier {
   
     func body(content: Content) -> some View {
         content
-            .accentColor(.green)
+            .accentColor(.primary)
             
     }
 }
