@@ -15,6 +15,8 @@
 		9FCE3F882BF4926D004255CB /* DEWASecrets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE3F862BF4919F004255CB /* DEWASecrets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9FCE3F8B2BF494E5004255CB /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F8A2BF494E5004255CB /* Modifiers.swift */; };
 		9FCE3F8D2BF495FD004255CB /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F8C2BF495FD004255CB /* NewsListView.swift */; };
+		9FCE3F8F2BF4AAC5004255CB /* NewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F8E2BF4AAC5004255CB /* NewsTabView.swift */; };
+		9FCE3F912BF4AB25004255CB /* NewsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F902BF4AB25004255CB /* NewsPageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		9FCE3F812BF4919F004255CB /* DEWASecrets.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DEWASecrets.xcodeproj; path = ../DEWASecrets/DEWASecrets.xcodeproj; sourceTree = "<group>"; };
 		9FCE3F8A2BF494E5004255CB /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		9FCE3F8C2BF495FD004255CB /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		9FCE3F8E2BF4AAC5004255CB /* NewsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTabView.swift; sourceTree = "<group>"; };
+		9FCE3F902BF4AB25004255CB /* NewsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				9FCE3F6C2BF4900E004255CB /* NewsSwiftUIDemoApp.swift */,
 				9FCE3F6E2BF4900E004255CB /* ContentView.swift */,
 				9FCE3F8C2BF495FD004255CB /* NewsListView.swift */,
+				9FCE3F8E2BF4AAC5004255CB /* NewsTabView.swift */,
+				9FCE3F902BF4AB25004255CB /* NewsPageView.swift */,
 				9FCE3F8A2BF494E5004255CB /* Modifiers.swift */,
 				9FCE3F702BF49010004255CB /* Assets.xcassets */,
 				9FCE3F722BF49010004255CB /* Preview Content */,
@@ -208,6 +214,8 @@
 				9FCE3F6F2BF4900E004255CB /* ContentView.swift in Sources */,
 				9FCE3F8D2BF495FD004255CB /* NewsListView.swift in Sources */,
 				9FCE3F8B2BF494E5004255CB /* Modifiers.swift in Sources */,
+				9FCE3F8F2BF4AAC5004255CB /* NewsTabView.swift in Sources */,
+				9FCE3F912BF4AB25004255CB /* NewsPageView.swift in Sources */,
 				9FCE3F6D2BF4900E004255CB /* NewsSwiftUIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +358,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,6 +388,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

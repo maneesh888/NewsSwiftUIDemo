@@ -19,7 +19,9 @@ struct NewsListView: View {
                 VStack {
                     ScrollViewReader { scrollView in
                         List(newsItems, id: \.id) { newsItem in
-                            Text(newsItem.title)
+                            NavigationLink(destination: NewsTabView(newsItems:newsItems, selectedNewsItem: newsItem)) {
+                                Text(newsItem.title)
+                            }
                         }
                         
                         .listStyle(.plain)
