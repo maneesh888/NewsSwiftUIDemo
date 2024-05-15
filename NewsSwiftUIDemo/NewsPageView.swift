@@ -12,9 +12,13 @@ struct NewsPageView: View {
     let newsItem: News
 
     var body: some View {
-        Text(newsItem.title).padding()
+        VStack {
+            WebView(urlString: newsItem.link)
+        }
+        .navigationBarTitle(newsItem.title, displayMode: .inline)
     }
 }
+
 #Preview {
     NewsPageView(newsItem: DewaSecrets().sampleNews.randomElement()!)
 }

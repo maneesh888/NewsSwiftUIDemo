@@ -17,6 +17,7 @@
 		9FCE3F8D2BF495FD004255CB /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F8C2BF495FD004255CB /* NewsListView.swift */; };
 		9FCE3F8F2BF4AAC5004255CB /* NewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F8E2BF4AAC5004255CB /* NewsTabView.swift */; };
 		9FCE3F912BF4AB25004255CB /* NewsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F902BF4AB25004255CB /* NewsPageView.swift */; };
+		9FCE3F952BF4B9A2004255CB /* NewsWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F942BF4B9A2004255CB /* NewsWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		9FCE3F8C2BF495FD004255CB /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 		9FCE3F8E2BF4AAC5004255CB /* NewsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTabView.swift; sourceTree = "<group>"; };
 		9FCE3F902BF4AB25004255CB /* NewsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPageView.swift; sourceTree = "<group>"; };
+		9FCE3F942BF4B9A2004255CB /* NewsWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				9FCE3F8C2BF495FD004255CB /* NewsListView.swift */,
 				9FCE3F8E2BF4AAC5004255CB /* NewsTabView.swift */,
 				9FCE3F902BF4AB25004255CB /* NewsPageView.swift */,
+				9FCE3F942BF4B9A2004255CB /* NewsWebView.swift */,
 				9FCE3F8A2BF494E5004255CB /* Modifiers.swift */,
 				9FCE3F702BF49010004255CB /* Assets.xcassets */,
 				9FCE3F722BF49010004255CB /* Preview Content */,
@@ -216,6 +219,7 @@
 				9FCE3F8B2BF494E5004255CB /* Modifiers.swift in Sources */,
 				9FCE3F8F2BF4AAC5004255CB /* NewsTabView.swift in Sources */,
 				9FCE3F912BF4AB25004255CB /* NewsPageView.swift in Sources */,
+				9FCE3F952BF4B9A2004255CB /* NewsWebView.swift in Sources */,
 				9FCE3F6D2BF4900E004255CB /* NewsSwiftUIDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
