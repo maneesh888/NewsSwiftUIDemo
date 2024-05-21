@@ -1,0 +1,143 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DEWASecrets
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import DEWASecrets
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum DewaPallete : Swift.String {
+  case primary
+  case primaryVariant
+  case secondary
+  case secondaryVariant
+  case background
+  case error
+  case warning
+  case card
+  case header
+  case primaryText
+  case secondaryText
+  case arrows
+  case lines
+  case cardborder
+  case inputfield
+  case tabs
+  case placeholder
+  case electricityGraph
+  case waterGraph
+  case slabGreen
+  case slabYellow
+  case slabOrange
+  case slabRed
+  case dewa
+  case others
+  case nakheel
+  case dm
+  case chartPlaceHolder
+  case favouriteActive
+  case blackwhite
+  case rammasInfo
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension DEWASecrets.DewaPallete {
+  public var uiColor: UIKit.UIColor {
+    get
+  }
+  public var color: SwiftUI.Color {
+    get
+  }
+}
+extension DEWASecrets.DewaPallete {
+  public struct ColorCode {
+  }
+  public var colorCode: DEWASecrets.DewaPallete.ColorCode {
+    get
+  }
+  public var assetName: Swift.String {
+    get
+  }
+}
+extension SwiftUI.Color {
+  public static var headerText: SwiftUI.Color {
+    get
+  }
+  public static var primaryText: SwiftUI.Color {
+    get
+  }
+  public static var secondaryText: SwiftUI.Color {
+    get
+  }
+  public static var primaryVariant: SwiftUI.Color {
+    get
+  }
+}
+extension SwiftUI.Color {
+  public static var primaryBg: SwiftUI.Color {
+    get
+  }
+  public static var rammasWidgetBg: SwiftUI.Color {
+    get
+  }
+  public static var separatorBg: SwiftUI.Color {
+    get
+  }
+}
+public protocol News {
+  var id: Swift.String { get }
+  var title: Swift.String { get }
+  var largeimage: Swift.String { get }
+  var link: Swift.String { get }
+  var pubdate: Swift.String { get }
+}
+public class DewaSecrets {
+  public init()
+  final public let sampleNews: [any DEWASecrets.News]
+  @objc deinit
+}
+public enum DewaFont {
+  case h3Headline
+  case h4Headline
+  case h5Headline
+  case h6Headline
+  case subtitle1
+  case subtitle2
+  case subtitle3
+  case subtitle4
+  case body1
+  case body2
+  case caption
+  case overline
+  case label
+  case labelcaps
+  public static func == (a: DEWASecrets.DewaFont, b: DEWASecrets.DewaFont) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension DEWASecrets.DewaFont {
+  public var font: UIKit.UIFont {
+    get
+  }
+  public static func dynamicFont(for textStyle: UIKit.UIFont.TextStyle) -> UIKit.UIFont
+  public static func getFont(for size: CoreFoundation.CGFloat, weight: UIKit.UIFont.Weight) -> UIKit.UIFont
+}
+extension DEWASecrets.DewaFont {
+  public var swiftUIFont: SwiftUI.Font {
+    get
+  }
+}
+extension DEWASecrets.DewaPallete : Swift.Equatable {}
+extension DEWASecrets.DewaPallete : Swift.Hashable {}
+extension DEWASecrets.DewaPallete : Swift.RawRepresentable {}
+extension DEWASecrets.DewaFont : Swift.Equatable {}
+extension DEWASecrets.DewaFont : Swift.Hashable {}

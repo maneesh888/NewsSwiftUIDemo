@@ -1,0 +1,11 @@
+framework module DEWASecrets {
+  umbrella header "DEWASecrets.h"
+  export *
+
+  module * { export * }
+}
+
+module DEWASecrets.Swift {
+  header "DEWASecrets-Swift.h"
+  requires objc
+}

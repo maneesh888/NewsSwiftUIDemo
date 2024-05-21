@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F2D9EC02BFC66AB005DD8B9 /* DEWASecrets.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D9EBF2BFC66AB005DD8B9 /* DEWASecrets.xcframework */; };
+		9F2D9EC12BFC66AB005DD8B9 /* DEWASecrets.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2D9EBF2BFC66AB005DD8B9 /* DEWASecrets.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9FCE3F6D2BF4900E004255CB /* NewsSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F6C2BF4900E004255CB /* NewsSwiftUIDemoApp.swift */; };
 		9FCE3F6F2BF4900E004255CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F6E2BF4900E004255CB /* ContentView.swift */; };
 		9FCE3F712BF49010004255CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE3F702BF49010004255CB /* Assets.xcassets */; };
 		9FCE3F742BF49010004255CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE3F732BF49010004255CB /* Preview Assets.xcassets */; };
-		9FCE3F872BF4926D004255CB /* DEWASecrets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE3F862BF4919F004255CB /* DEWASecrets.framework */; };
-		9FCE3F882BF4926D004255CB /* DEWASecrets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9FCE3F862BF4919F004255CB /* DEWASecrets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9FCE3F8B2BF494E5004255CB /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F8A2BF494E5004255CB /* Modifiers.swift */; };
 		9FCE3F8D2BF495FD004255CB /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F8C2BF495FD004255CB /* NewsListView.swift */; };
 		9FCE3F8F2BF4AAC5004255CB /* NewsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F8E2BF4AAC5004255CB /* NewsTabView.swift */; };
@@ -22,16 +22,6 @@
 		9FCE3F9A2BF4CF8A004255CB /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F992BF4CF8A004255CB /* NewsRowView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		9FCE3F852BF4919F004255CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FCE3F812BF4919F004255CB /* DEWASecrets.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9F54EB5C2BEE3C22008A4B49;
-			remoteInfo = DEWASecrets;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		9FCE3F892BF4926D004255CB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -39,7 +29,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9FCE3F882BF4926D004255CB /* DEWASecrets.framework in Embed Frameworks */,
+				9F2D9EC12BFC66AB005DD8B9 /* DEWASecrets.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,12 +37,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F2D9EBE2BFC6692005DD8B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F2D9EBF2BFC66AB005DD8B9 /* DEWASecrets.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DEWASecrets.xcframework; path = ../DEWASecrets.xcframework; sourceTree = "<group>"; };
 		9FCE3F692BF4900E004255CB /* NewsSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCE3F6C2BF4900E004255CB /* NewsSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		9FCE3F6E2BF4900E004255CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FCE3F702BF49010004255CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FCE3F732BF49010004255CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9FCE3F812BF4919F004255CB /* DEWASecrets.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DEWASecrets.xcodeproj; path = ../DEWASecrets/DEWASecrets.xcodeproj; sourceTree = "<group>"; };
 		9FCE3F8A2BF494E5004255CB /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		9FCE3F8C2BF495FD004255CB /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
 		9FCE3F8E2BF4AAC5004255CB /* NewsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTabView.swift; sourceTree = "<group>"; };
@@ -66,8 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2D9EC02BFC66AB005DD8B9 /* DEWASecrets.xcframework in Frameworks */,
 				9FCE3F982BF4CF75004255CB /* SDWebImageSwiftUI in Frameworks */,
-				9FCE3F872BF4926D004255CB /* DEWASecrets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +68,6 @@
 		9FCE3F602BF4900E004255CB = {
 			isa = PBXGroup;
 			children = (
-				9FCE3F812BF4919F004255CB /* DEWASecrets.xcodeproj */,
 				9FCE3F6B2BF4900E004255CB /* NewsSwiftUIDemo */,
 				9FCE3F6A2BF4900E004255CB /* Products */,
 				9FCE3F7A2BF490C7004255CB /* Frameworks */,
@@ -95,6 +85,7 @@
 		9FCE3F6B2BF4900E004255CB /* NewsSwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9F2D9EBE2BFC6692005DD8B9 /* Info.plist */,
 				9FCE3F6C2BF4900E004255CB /* NewsSwiftUIDemoApp.swift */,
 				9FCE3F6E2BF4900E004255CB /* ContentView.swift */,
 				9FCE3F8C2BF495FD004255CB /* NewsListView.swift */,
@@ -120,16 +111,9 @@
 		9FCE3F7A2BF490C7004255CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F2D9EBF2BFC66AB005DD8B9 /* DEWASecrets.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9FCE3F822BF4919F004255CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9FCE3F862BF4919F004255CB /* DEWASecrets.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,28 +169,12 @@
 			);
 			productRefGroup = 9FCE3F6A2BF4900E004255CB /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 9FCE3F822BF4919F004255CB /* Products */;
-					ProjectRef = 9FCE3F812BF4919F004255CB /* DEWASecrets.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				9FCE3F682BF4900E004255CB /* NewsSwiftUIDemo */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		9FCE3F862BF4919F004255CB /* DEWASecrets.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = DEWASecrets.framework;
-			remoteRef = 9FCE3F852BF4919F004255CB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		9FCE3F672BF4900E004255CB /* Resources */ = {
@@ -369,6 +337,7 @@
 				DEVELOPMENT_TEAM = 3VSNLS7N3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewsSwiftUIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -399,6 +368,7 @@
 				DEVELOPMENT_TEAM = 3VSNLS7N3U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NewsSwiftUIDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
