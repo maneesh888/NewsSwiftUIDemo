@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9F22D3902BFF60E60036C2C4 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22D38F2BFF60E60036C2C4 /* ShareSheetView.swift */; };
 		9FCE3F6D2BF4900E004255CB /* NewsSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F6C2BF4900E004255CB /* NewsSwiftUIDemoApp.swift */; };
 		9FCE3F6F2BF4900E004255CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCE3F6E2BF4900E004255CB /* ContentView.swift */; };
 		9FCE3F712BF49010004255CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCE3F702BF49010004255CB /* Assets.xcassets */; };
@@ -48,7 +47,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9F22D38F2BFF60E60036C2C4 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
 		9FCE3F692BF4900E004255CB /* NewsSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCE3F6C2BF4900E004255CB /* NewsSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		9FCE3F6E2BF4900E004255CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 				9FCE3F942BF4B9A2004255CB /* NewsWebView.swift */,
 				9FCE3F992BF4CF8A004255CB /* NewsRowView.swift */,
 				9FCE3F8A2BF494E5004255CB /* Modifiers.swift */,
-				9F22D38F2BFF60E60036C2C4 /* ShareSheetView.swift */,
 				9FCE3F702BF49010004255CB /* Assets.xcassets */,
 				9FCE3F722BF49010004255CB /* Preview Content */,
 			);
@@ -229,7 +226,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FCE3F6F2BF4900E004255CB /* ContentView.swift in Sources */,
-				9F22D3902BFF60E60036C2C4 /* ShareSheetView.swift in Sources */,
 				9FCE3F8D2BF495FD004255CB /* NewsListView.swift in Sources */,
 				9FCE3F8B2BF494E5004255CB /* Modifiers.swift in Sources */,
 				9FCE3F8F2BF4AAC5004255CB /* NewsTabView.swift in Sources */,

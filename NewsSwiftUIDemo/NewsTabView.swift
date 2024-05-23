@@ -14,7 +14,6 @@ struct NewsTabView: View {
     
     @State var currentIndex: Int = 0
     @Environment(\.presentationMode) var presentationMode
-    @State private var isShowingShareSheet = false
     
     var body: some View {
         TabView(selection:$currentIndex) {
@@ -43,16 +42,28 @@ struct NewsTabView: View {
                         self.presentationMode.wrappedValue.dismiss()
                     }
                     .addTrailingShareButton {
-                        self.isShowingShareSheet = true
+                        if let url = URL(string: selectedNewsItem.link){
+                            showShareSheet(url: url)
+                        }
                     }
 
-                    .sheet(isPresented: $isShowingShareSheet) {
-                        let shareText = "\(selectedNewsItem.title)\n\nCheck this out: \(selectedNewsItem.link)"
-                        ShareSheet(items: [shareText])
-                    }
+        
     }
+
 }
 #Preview {
     //NewsTabView(newsItems: DewaSecrets().sampleNews, selectedNewsItem: DewaSecrets().sampleNews.first!)
     NewsListView(newsItems: DewaSecrets().sampleNews)
+}
+
+extension View {
+    func showShareSheet(url:URL) {
+        let activityController = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+        UIApplication
+            .shared
+            .connectedScenes
+            .flatMap { ($0 as? UIWindowScene)?.windows ?? [] }
+            .last { $0.isKeyWindow }?
+            .rootViewController!.present(activityController, animated: true, completion: nil)
+    }
 }
