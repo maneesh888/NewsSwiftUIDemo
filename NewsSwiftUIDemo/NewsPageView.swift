@@ -15,7 +15,8 @@ struct NewsPageView: View {
         VStack {
             WebView(urlString: newsItem.link)
         }
-        .navigationBarTitle(newsItem.title, displayMode: .inline)
+        .navigationBarTitle("DEWA News", displayMode: .inline)
+       
     }
 }
 

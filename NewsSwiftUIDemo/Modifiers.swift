@@ -32,7 +32,7 @@ struct NavigationCloseButton: ViewModifier {
         content
             .navigationBarItems(leading: Button(action: action, label: {
                 Image(systemName: "xmark")
-                    .foregroundColor(.green)
+                    .foregroundColor(DewaPallete.primary.color)
             }))
     }
 }
@@ -41,7 +41,7 @@ struct NavigationViewTheme: ViewModifier {
   
     func body(content: Content) -> some View {
         content
-            .accentColor(.primary)
+            .accentColor(DewaPallete.primary.color)
             
     }
 }

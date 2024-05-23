@@ -39,6 +39,7 @@ struct NewsListView: View {
            
         }
         .navigationViewStyle(StackNavigationViewStyle())
+        .applyNaviagationTheme()
       
     }
 }

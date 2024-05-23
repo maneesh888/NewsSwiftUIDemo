@@ -26,12 +26,10 @@ struct NewsRowView: View {
                 }
                 .indicator(.activity)
                 .transition(.fade(duration: 0.5))
-            //.clipped()
                 .aspectRatio( contentMode: .fill)
                 .frame(width: imageWidth)
                 .padding(.all, padding)
                 .padding(.leading, -padding)
-            // .background(Color.blue)
             HStack () {
                 
                 
