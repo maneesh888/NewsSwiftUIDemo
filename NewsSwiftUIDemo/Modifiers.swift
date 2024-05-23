@@ -14,6 +14,14 @@ extension View {
         modifier(NavigationCloseButton(action:action))
     }
     
+    func addLeadingBackButton( action: @escaping () -> (Void)) -> some View {
+        modifier(NavigationBackButton(action:action))
+    }
+    
+    func addTrailingShareButton( action: @escaping () -> (Void)) -> some View {
+        modifier(NavigationShareButton(action:action))
+    }
+    
     func applyNaviagationTheme() -> some View {
         modifier(NavigationViewTheme())
     }
@@ -32,7 +40,33 @@ struct NavigationCloseButton: ViewModifier {
         content
             .navigationBarItems(leading: Button(action: action, label: {
                 Image(systemName: "xmark")
-                    .foregroundColor(.green)
+                    .foregroundColor(DewaPallete.primary.color)
+            }))
+    }
+}
+
+struct NavigationBackButton: ViewModifier {
+    var action: () -> (Void)
+    func body(content: Content) -> some View {
+        content
+            .navigationBarItems(leading: Button(action: action, label: {
+                HStack {
+                    Image(systemName: "chevron.left")
+                        .foregroundColor(DewaPallete.primary.color)
+                    // Empty text to add more space
+                    Text(" ")
+                }
+            }))
+    }
+}
+
+struct NavigationShareButton: ViewModifier {
+    var action: () -> (Void)
+    func body(content: Content) -> some View {
+        content
+            .navigationBarItems(trailing: Button(action: action, label: {
+                Image(systemName: "square.and.arrow.up")
+                    .foregroundColor(DewaPallete.primary.color)
             }))
     }
 }
@@ -41,7 +75,7 @@ struct NavigationViewTheme: ViewModifier {
   
     func body(content: Content) -> some View {
         content
-            .accentColor(.primary)
+            .accentColor(DewaPallete.primary.color)
             
     }
 }

@@ -22,7 +22,9 @@ struct NewsListView: View {
                             NavigationLink(destination: NewsTabView(newsItems:newsItems, selectedNewsItem: newsItem)) {
                                 NewsRowView(newsItem: newsItem)
                                     .frame(height: 70)
+                                
                             }
+                            
                         }
                         
                         .listStyle(.plain)
@@ -39,6 +41,8 @@ struct NewsListView: View {
            
         }
         .navigationViewStyle(StackNavigationViewStyle())
+        .applyNaviagationTheme()
+        
       
     }
 }
