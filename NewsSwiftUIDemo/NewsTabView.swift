@@ -47,7 +47,8 @@ struct NewsTabView: View {
                     }
 
                     .sheet(isPresented: $isShowingShareSheet) {
-                        ShareSheet(items: [selectedNewsItem.title])
+                        let shareText = "\(selectedNewsItem.title)\n\nCheck this out: \(selectedNewsItem.link)"
+                        ShareSheet(items: [shareText])
                     }
     }
 }
