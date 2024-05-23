@@ -12,7 +12,8 @@ struct NewsTabView: View {
     let newsItems: [News]
     let selectedNewsItem: News
     @State var currentIndex: Int = 0
-
+    @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         TabView(selection:$currentIndex) {
             ForEach(newsItems.indices, id: \.self) { index in
@@ -34,9 +35,20 @@ struct NewsTabView: View {
            // guard let newIndex = newIndex else { return }
             currentIndex = newIndex
         }
+        .navigationBarTitle("Detail", displayMode: .inline)
+                    .navigationBarBackButtonHidden(true)
+                    .addLeadingBackButton {
+                        self.presentationMode.wrappedValue.dismiss()
+                    }
+                    .addTrailingShareButton {
+                        
+                    }
+
+        
         
     }
 }
 #Preview {
-    NewsTabView(newsItems: DewaSecrets().sampleNews, selectedNewsItem: DewaSecrets().sampleNews.first!)
+    //NewsTabView(newsItems: DewaSecrets().sampleNews, selectedNewsItem: DewaSecrets().sampleNews.first!)
+    NewsListView(newsItems: DewaSecrets().sampleNews)
 }
