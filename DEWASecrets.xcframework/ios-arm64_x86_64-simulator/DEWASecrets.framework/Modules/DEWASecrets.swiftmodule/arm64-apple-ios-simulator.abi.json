@@ -1267,84 +1267,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "uiColor",
-            "printedName": "uiColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11DEWASecrets11DewaPalleteO7uiColorSo7UIColorCvp",
-            "mangledName": "$s11DEWASecrets11DewaPalleteO7uiColorSo7UIColorCvp",
-            "moduleName": "DEWASecrets",
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11DEWASecrets11DewaPalleteO7uiColorSo7UIColorCvg",
-                "mangledName": "$s11DEWASecrets11DewaPalleteO7uiColorSo7UIColorCvg",
-                "moduleName": "DEWASecrets",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "color",
-            "printedName": "color",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11DEWASecrets11DewaPalleteO5color7SwiftUI5ColorVvp",
-            "mangledName": "$s11DEWASecrets11DewaPalleteO5color7SwiftUI5ColorVvp",
-            "moduleName": "DEWASecrets",
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11DEWASecrets11DewaPalleteO5color7SwiftUI5ColorVvg",
-                "mangledName": "$s11DEWASecrets11DewaPalleteO5color7SwiftUI5ColorVvg",
-                "moduleName": "DEWASecrets",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "TypeDecl",
             "name": "ColorCode",
             "printedName": "ColorCode",
@@ -1409,9 +1331,6 @@
             "usr": "s:11DEWASecrets11DewaPalleteO9assetNameSSvp",
             "mangledName": "$s11DEWASecrets11DewaPalleteO9assetNameSSvp",
             "moduleName": "DEWASecrets",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "accessors": [
               {
@@ -1429,6 +1348,116 @@
                 "declKind": "Accessor",
                 "usr": "s:11DEWASecrets11DewaPalleteO9assetNameSSvg",
                 "mangledName": "$s11DEWASecrets11DewaPalleteO9assetNameSSvg",
+                "moduleName": "DEWASecrets",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "uicolor",
+            "printedName": "uicolor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DEWASecrets11DewaPalleteO7uicolorSo7UIColorCSgvp",
+            "mangledName": "$s11DEWASecrets11DewaPalleteO7uicolorSo7UIColorCSgvp",
+            "moduleName": "DEWASecrets",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DEWASecrets11DewaPalleteO7uicolorSo7UIColorCSgvg",
+                "mangledName": "$s11DEWASecrets11DewaPalleteO7uicolorSo7UIColorCSgvg",
+                "moduleName": "DEWASecrets",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DEWASecrets11DewaPalleteO5color7SwiftUI5ColorVSgvp",
+            "mangledName": "$s11DEWASecrets11DewaPalleteO5color7SwiftUI5ColorVSgvp",
+            "moduleName": "DEWASecrets",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "SwiftUI.Color?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DEWASecrets11DewaPalleteO5color7SwiftUI5ColorVSgvg",
+                "mangledName": "$s11DEWASecrets11DewaPalleteO5color7SwiftUI5ColorVSgvg",
                 "moduleName": "DEWASecrets",
                 "isFromExtension": true,
                 "accessorKind": "get"
@@ -1699,6 +1728,48 @@
                 "declKind": "Accessor",
                 "usr": "s:11DEWASecrets4NewsP7pubdateSSvg",
                 "mangledName": "$s11DEWASecrets4NewsP7pubdateSSvg",
+                "moduleName": "DEWASecrets",
+                "genericSig": "<τ_0_0 where τ_0_0 : DEWASecrets.News>",
+                "sugared_genericSig": "<Self where Self : DEWASecrets.News>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "thumbnail",
+            "printedName": "thumbnail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DEWASecrets4NewsP9thumbnailSSvp",
+            "mangledName": "$s11DEWASecrets4NewsP9thumbnailSSvp",
+            "moduleName": "DEWASecrets",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DEWASecrets4NewsP9thumbnailSSvg",
+                "mangledName": "$s11DEWASecrets4NewsP9thumbnailSSvg",
                 "moduleName": "DEWASecrets",
                 "genericSig": "<τ_0_0 where τ_0_0 : DEWASecrets.News>",
                 "sugared_genericSig": "<Self where Self : DEWASecrets.News>",
@@ -3057,490 +3128,637 @@
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1297,
+      "offset": 1156,
       "length": 9,
       "value": "\"#007560\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1314,
+      "offset": 1173,
       "length": 9,
       "value": "\"#7FC9BB\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1385,
+      "offset": 1244,
       "length": 9,
       "value": "\"#004937\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1402,
+      "offset": 1261,
       "length": 9,
       "value": "\"#27a28d\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1468,
+      "offset": 1327,
       "length": 9,
       "value": "\"#0B7BC1\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1485,
+      "offset": 1344,
       "length": 9,
       "value": "\"#83D7FC\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1558,
+      "offset": 1417,
       "length": 9,
       "value": "\"#0469A8\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1575,
+      "offset": 1434,
       "length": 9,
       "value": "\"#2cbcfa\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1642,
+      "offset": 1501,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1659,
+      "offset": 1518,
       "length": 9,
       "value": "\"#212427\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1721,
+      "offset": 1580,
       "length": 9,
       "value": "\"#B00020\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1738,
+      "offset": 1597,
       "length": 9,
       "value": "\"#CF6679\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1802,
+      "offset": 1661,
       "length": 9,
       "value": "\"#FCF5E7\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1678,
       "length": 9,
       "value": "\"#7E5F11\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1880,
+      "offset": 1739,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1897,
+      "offset": 1756,
       "length": 9,
       "value": "\"#212427\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1960,
+      "offset": 1819,
       "length": 9,
       "value": "\"#222222\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 1977,
+      "offset": 1836,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2045,
+      "offset": 1904,
       "length": 9,
       "value": "\"#222222\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2062,
+      "offset": 1921,
       "length": 9,
       "value": "\"#E2E2E2\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2132,
+      "offset": 1991,
       "length": 9,
       "value": "\"#6F6F6F\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2149,
+      "offset": 2008,
       "length": 9,
       "value": "\"#BDBDBD\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2212,
+      "offset": 2071,
       "length": 9,
       "value": "\"#BDBDBD\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2229,
+      "offset": 2088,
       "length": 9,
       "value": "\"#5A5A5F\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2291,
+      "offset": 2150,
       "length": 9,
       "value": "\"#D7D7DF\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2308,
+      "offset": 2167,
       "length": 9,
       "value": "\"#5A5A5F\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2375,
+      "offset": 2234,
       "length": 9,
       "value": "\"#D7D7DF\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2392,
+      "offset": 2251,
       "length": 9,
       "value": "\"#5A5A5F\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2459,
+      "offset": 2318,
       "length": 9,
       "value": "\"#F2F3F3\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2476,
+      "offset": 2335,
       "length": 9,
       "value": "\"#373B40\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2537,
+      "offset": 2396,
       "length": 9,
       "value": "\"#F2F3F3\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2554,
+      "offset": 2413,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2622,
+      "offset": 2481,
       "length": 9,
       "value": "\"#4F4F4F\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2639,
+      "offset": 2498,
       "length": 9,
       "value": "\"#E2E2E2\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2712,
+      "offset": 2571,
       "length": 9,
       "value": "\"#7DBA96\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2729,
+      "offset": 2588,
       "length": 9,
       "value": "\"#7FC9BB\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2796,
+      "offset": 2655,
       "length": 9,
       "value": "\"#6CBEED\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2813,
+      "offset": 2672,
       "length": 9,
       "value": "\"#83D7FC\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2879,
+      "offset": 2738,
       "length": 9,
       "value": "\"#007560\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2896,
+      "offset": 2755,
       "length": 9,
       "value": "\"#7FC9BB\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2963,
+      "offset": 2822,
       "length": 9,
       "value": "\"#FFBB54\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 2980,
+      "offset": 2839,
       "length": 9,
       "value": "\"#FFBB54\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3047,
+      "offset": 2906,
       "length": 9,
       "value": "\"#FF6D24\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3064,
+      "offset": 2923,
       "length": 9,
       "value": "\"#FFDE87\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3128,
+      "offset": 2987,
       "length": 9,
       "value": "\"#B00020\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3145,
+      "offset": 3004,
       "length": 9,
       "value": "\"#CF6679\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3206,
+      "offset": 3065,
       "length": 9,
       "value": "\"#69B086\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3223,
+      "offset": 3082,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 3138,
       "length": 9,
       "value": "\"#EF9A91\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3296,
+      "offset": 3155,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3353,
+      "offset": 3212,
       "length": 9,
       "value": "\"#B6D7EC\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3370,
+      "offset": 3229,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3281,
       "length": 9,
       "value": "\"#EBD7BC\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3439,
+      "offset": 3298,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3505,
+      "offset": 3364,
       "length": 9,
       "value": "\"#EFEFF1\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3522,
+      "offset": 3381,
       "length": 9,
       "value": "\"#EFEFF1\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3594,
+      "offset": 3453,
       "length": 9,
       "value": "\"#FFBB54\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3611,
+      "offset": 3470,
       "length": 9,
       "value": "\"#FFBB54\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3678,
+      "offset": 3537,
       "length": 9,
       "value": "\"#000000\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3695,
+      "offset": 3554,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3762,
+      "offset": 3621,
       "length": 9,
       "value": "\"#222222\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
       "kind": "StringLiteral",
-      "offset": 3779,
+      "offset": 3638,
       "length": 9,
       "value": "\"#373B40\""
     },
     {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "StringLiteral",
+      "offset": 5004,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5086,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5203,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5216,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "FloatLiteral",
+      "offset": 5222,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5259,
+      "length": 8,
+      "value": "0x00FF00"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5272,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "FloatLiteral",
+      "offset": 5277,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5313,
+      "length": 8,
+      "value": "0x0000FF"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "FloatLiteral",
+      "offset": 5325,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "FloatLiteral",
+      "offset": 5383,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "StringLiteral",
+      "offset": 5571,
+      "length": 3,
+      "value": "\"#\""
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5653,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5769,
+      "length": 8,
+      "value": "0xFF0000"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5782,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "FloatLiteral",
+      "offset": 5788,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5824,
+      "length": 8,
+      "value": "0x00FF00"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5837,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "FloatLiteral",
+      "offset": 5842,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5877,
+      "length": 8,
+      "value": "0x0000FF"
+    },
+    {
+      "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/DewaPalette.swift",
+      "kind": "FloatLiteral",
+      "offset": 5889,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/JsonLoader.swift",
       "kind": "StringLiteral",
-      "offset": 613,
+      "offset": 647,
       "length": 11,
       "value": "\"Newsitems\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/JsonLoader.swift",
       "kind": "StringLiteral",
-      "offset": 613,
+      "offset": 647,
       "length": 11,
       "value": "\"Newsitems\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/JsonLoader.swift",
       "kind": "StringLiteral",
-      "offset": 856,
+      "offset": 890,
       "length": 48,
       "value": "\"Error: Unable to convert Base64 string to Data\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/JsonLoader.swift",
       "kind": "Array",
-      "offset": 929,
+      "offset": 963,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/JsonLoader.swift",
       "kind": "IntegerLiteral",
-      "offset": 1662,
+      "offset": 1696,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/JsonLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1704,
+      "offset": 1738,
       "length": 31,
       "value": "\"Error decoding JSON: \""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/JsonLoader.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 1768,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/maneesh\/Documents\/Portfolio Projects\/DEWASecrets\/DEWASecrets\/JsonLoader.swift",
       "kind": "Array",
-      "offset": 1756,
+      "offset": 1790,
       "length": 2,
       "value": "[]"
     },

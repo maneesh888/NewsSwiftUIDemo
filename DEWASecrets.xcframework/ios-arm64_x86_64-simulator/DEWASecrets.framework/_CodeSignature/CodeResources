@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DEWASecrets-Swift.h</key>
 		<data>
-		PbSjF5AiA6AosaISxLcGAZmz3Uw=
+		x+yPsz5U0xAl7Zgyulh+FdZqTzc=
 		</data>
 		<key>Headers/DEWASecrets.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		RcZQyKHkOr8Vv31ikQXurlSe5e4=
+		PhC5m7Pa0ms05yFva0j6GD2qrDY=
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Mc17BQuc6+Ygd+VbQbWJ22WN6OY=
+		VhKfUNF+H0OH3+QESI/HFXha3C8=
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Mc17BQuc6+Ygd+VbQbWJ22WN6OY=
+		VhKfUNF+H0OH3+QESI/HFXha3C8=
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XPO4ruv//sjOwQyW1spgM8ckglI=
+		Sj1s4rdWg54oBe0q9xN5PJk7PlM=
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		RcZQyKHkOr8Vv31ikQXurlSe5e4=
+		PhC5m7Pa0ms05yFva0j6GD2qrDY=
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		NamPC9dV2Q9jBKkPmFjArHWafzw=
+		H7XPiF7X1ylrINfLhyZF90RwQ4E=
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		NamPC9dV2Q9jBKkPmFjArHWafzw=
+		H7XPiF7X1ylrINfLhyZF90RwQ4E=
 		</data>
 		<key>Modules/DEWASecrets.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rsJzjBPD8XVeUrTEp0LZj+kuD4A=
+		yxkFNzOZ8/DmBYlzId23IHeSAd0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hok2TNmPLrjp683RfnlNxxJbKV0TzLsMK4d5Ae0XxtE=
+			K/U6wYifexoHjzUlPn7Bv6NFUHfRabxyCfruMO9nnU4=
 			</data>
 		</dict>
 		<key>Headers/DEWASecrets.h</key>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ppcWYhUGPi4pQiPRm6Sb0ih38LJJjAv2kS2bTD6ZJh8=
+			xFWcdDSIpbjXRFGkvXVToQtIlown4HoW7Acn0rhHmbY=
 			</data>
 		</dict>
 		<key>Modules/DEWASecrets.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2qgQGqqw22o6JV5IuGD/b9xDkTPOY+E6dyfQnvSAeWM=
+			1sEBcnzhtCIhZNYlauSdpd6DjHG5eLjDjsNXhwrA+kc=
 			</data>
 		</dict>
 		<key>Modules/DEWASecrets.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2qgQGqqw22o6JV5IuGD/b9xDkTPOY+E6dyfQnvSAeWM=
+			1sEBcnzhtCIhZNYlauSdpd6DjHG5eLjDjsNXhwrA+kc=
 			</data>
 		</dict>
 		<key>Modules/DEWASecrets.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+8OCA2kN8Lbh4SxIgicpmuiaNxMkTXVpubC1DBgdF1k=
+			rkDNJEQ0WN1yLt1V58cxPWBOjHnh/mNFhZFRAMOr7SI=
 			</data>
 		</dict>
 		<key>Modules/DEWASecrets.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ppcWYhUGPi4pQiPRm6Sb0ih38LJJjAv2kS2bTD6ZJh8=
+			xFWcdDSIpbjXRFGkvXVToQtIlown4HoW7Acn0rhHmbY=
 			</data>
 		</dict>
 		<key>Modules/DEWASecrets.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wOwcXq3X98iIHFzOrKZp05Nh/FhugrzyUYgjQkLU9bM=
+			OQhKP7Wzd+POrOdb8cJumkLPoKFtRnCLFme6p20VGgY=
 			</data>
 		</dict>
 		<key>Modules/DEWASecrets.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wOwcXq3X98iIHFzOrKZp05Nh/FhugrzyUYgjQkLU9bM=
+			OQhKP7Wzd+POrOdb8cJumkLPoKFtRnCLFme6p20VGgY=
 			</data>
 		</dict>
 		<key>Modules/DEWASecrets.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5PAAoovPFkxAkMubdklnYxSahUQUR9qKaL7uJZQ82t8=
+			URdq09vLpW0RjiYE9BdurcjNX5fKYi04RMhS5Gg24/s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

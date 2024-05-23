@@ -49,14 +49,6 @@ public enum DewaPallete : Swift.String {
   }
 }
 extension DEWASecrets.DewaPallete {
-  public var uiColor: UIKit.UIColor {
-    get
-  }
-  public var color: SwiftUI.Color {
-    get
-  }
-}
-extension DEWASecrets.DewaPallete {
   public struct ColorCode {
   }
   public var colorCode: DEWASecrets.DewaPallete.ColorCode {
@@ -91,12 +83,21 @@ extension SwiftUI.Color {
     get
   }
 }
+extension DEWASecrets.DewaPallete {
+  public var uicolor: UIKit.UIColor! {
+    get
+  }
+  public var color: SwiftUI.Color! {
+    get
+  }
+}
 public protocol News {
   var id: Swift.String { get }
   var title: Swift.String { get }
   var largeimage: Swift.String { get }
   var link: Swift.String { get }
   var pubdate: Swift.String { get }
+  var thumbnail: Swift.String { get }
 }
 public class DewaSecrets {
   public init()
