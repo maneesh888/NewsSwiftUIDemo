@@ -11,8 +11,10 @@ import DEWASecrets
 struct NewsTabView: View {
     let newsItems: [News]
     let selectedNewsItem: News
+    
     @State var currentIndex: Int = 0
     @Environment(\.presentationMode) var presentationMode
+    @State private var isShowingShareSheet = false
     
     var body: some View {
         TabView(selection:$currentIndex) {
@@ -41,11 +43,12 @@ struct NewsTabView: View {
                         self.presentationMode.wrappedValue.dismiss()
                     }
                     .addTrailingShareButton {
-                        
+                        self.isShowingShareSheet = true
                     }
 
-        
-        
+                    .sheet(isPresented: $isShowingShareSheet) {
+                        ShareSheet(items: [selectedNewsItem.title])
+                    }
     }
 }
 #Preview {
